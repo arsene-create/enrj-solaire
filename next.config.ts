@@ -1,7 +1,19 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    formats: ["image/avif", "image/webp"],
+  },
+  async redirects() {
+    return [
+      {
+        source: "/ombrieres-parking",
+        has: [{ type: "query", key: "accent", value: "true" }],
+        destination: "/ombrieres-parking",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
