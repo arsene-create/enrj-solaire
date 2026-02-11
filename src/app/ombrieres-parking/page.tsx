@@ -7,6 +7,8 @@ import { AlertTriangle, Calendar, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import FAQSection from "@/components/sections/FAQSection";
 import CTABannerSection from "@/components/sections/CTABannerSection";
+import JsonLd from "@/components/seo/JsonLd";
+import { getBreadcrumbSchema, getServiceSchema } from "@/components/seo/schemas";
 
 const service = services.find((s) => s.slug === "ombrieres-parking")!;
 
@@ -27,6 +29,8 @@ export const metadata: Metadata = {
 export default function OmbrieresPage() {
   return (
     <>
+      <JsonLd data={getBreadcrumbSchema([{ name: "Ombrières de Parking", url: "/ombrieres-parking" }])} />
+      <JsonLd data={getServiceSchema({ name: service.title, description: service.description, url: "/ombrieres-parking" })} />
       <ServiceHeroSection
         title={service.title}
         description={service.description}

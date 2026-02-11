@@ -7,6 +7,8 @@ import { ArrowDown, ArrowRight, CheckCircle, XCircle } from "lucide-react";
 import Link from "next/link";
 import FAQSection from "@/components/sections/FAQSection";
 import CTABannerSection from "@/components/sections/CTABannerSection";
+import JsonLd from "@/components/seo/JsonLd";
+import { getBreadcrumbSchema } from "@/components/seo/schemas";
 
 const service = services.find((s) => s.slug === "tiers-investissement")!;
 
@@ -87,6 +89,7 @@ const models = [
 export default function TiersInvestissementPage() {
   return (
     <>
+      <JsonLd data={getBreadcrumbSchema([{ name: "Tiers-Investissement", url: "/tiers-investissement" }])} />
       <ServiceHeroSection
         title={service.title}
         description={service.description}

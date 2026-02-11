@@ -16,6 +16,8 @@ import SectionWrapper from "@/components/ui/SectionWrapper";
 import CTABannerSection from "@/components/sections/CTABannerSection";
 import { equipe } from "@/data/equipe";
 import { COMPANY } from "@/lib/constants";
+import JsonLd from "@/components/seo/JsonLd";
+import { getBreadcrumbSchema } from "@/components/seo/schemas";
 
 export const metadata: Metadata = {
   title: "Notre Équipe | Les visages derrière vos projets solaires",
@@ -62,6 +64,7 @@ export default function EquipePage() {
 
   return (
     <>
+      <JsonLd data={getBreadcrumbSchema([{ name: "Notre équipe", url: "/equipe" }])} />
       <Breadcrumbs items={[{ label: "Notre équipe" }]} />
 
       {/* Hero */}

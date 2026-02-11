@@ -23,6 +23,8 @@ import SectionWrapper from "@/components/ui/SectionWrapper";
 import StatsSection from "@/components/sections/StatsSection";
 import CTABannerSection from "@/components/sections/CTABannerSection";
 import { COMPANY, DISTINCTIONS } from "@/lib/constants";
+import JsonLd from "@/components/seo/JsonLd";
+import { getBreadcrumbSchema } from "@/components/seo/schemas";
 
 export const metadata: Metadata = {
   title: "À propos | Tiers-investissement solaire pour professionnels",
@@ -122,6 +124,7 @@ const keyFigures = [
 export default function AProposPage() {
   return (
     <>
+      <JsonLd data={getBreadcrumbSchema([{ name: "À propos", url: "/a-propos" }])} />
       <Breadcrumbs items={[{ label: "À propos" }]} />
 
       {/* Hero */}

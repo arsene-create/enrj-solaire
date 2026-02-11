@@ -5,6 +5,9 @@ import SectionWrapper from "@/components/ui/SectionWrapper";
 import RealisationsGrid from "@/components/sections/RealisationsGrid";
 import VideoReferencesSection from "@/components/sections/VideoReferencesSection";
 import CTABannerSection from "@/components/sections/CTABannerSection";
+import JsonLd from "@/components/seo/JsonLd";
+import { getBreadcrumbSchema, getVideoSchema } from "@/components/seo/schemas";
+import { videos } from "@/data/videos";
 
 export const metadata: Metadata = {
   title: "Nos Réalisations | Installations Solaires Professionnelles",
@@ -23,6 +26,18 @@ export const metadata: Metadata = {
 export default function RealisationsPage() {
   return (
     <>
+      <JsonLd data={getBreadcrumbSchema([{ name: "Réalisations", url: "/realisations" }])} />
+      {videos.map((video) => (
+        <JsonLd
+          key={video.id}
+          data={getVideoSchema({
+            name: video.title,
+            description: video.description,
+            thumbnailUrl: video.thumbnail,
+            contentUrl: video.src,
+          })}
+        />
+      ))}
       <Breadcrumbs items={[{ label: "Réalisations" }]} />
 
       <section className="py-8 md:py-16 px-4">

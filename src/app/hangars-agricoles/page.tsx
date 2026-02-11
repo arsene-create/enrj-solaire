@@ -7,6 +7,8 @@ import { Leaf, Sun, TrendingUp, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import FAQSection from "@/components/sections/FAQSection";
 import CTABannerSection from "@/components/sections/CTABannerSection";
+import JsonLd from "@/components/seo/JsonLd";
+import { getBreadcrumbSchema, getServiceSchema } from "@/components/seo/schemas";
 
 const service = services.find((s) => s.slug === "hangars-agricoles")!;
 
@@ -34,6 +36,8 @@ const productionTable = [
 export default function HangarsAgricolesPage() {
   return (
     <>
+      <JsonLd data={getBreadcrumbSchema([{ name: "Hangars Agricoles", url: "/hangars-agricoles" }])} />
+      <JsonLd data={getServiceSchema({ name: service.title, description: service.description, url: "/hangars-agricoles" })} />
       <ServiceHeroSection
         title={service.title}
         description={service.description}

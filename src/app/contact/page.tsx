@@ -3,6 +3,8 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { COMPANY } from "@/lib/constants";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import ContactForm from "@/components/forms/ContactForm";
+import JsonLd from "@/components/seo/JsonLd";
+import { getBreadcrumbSchema } from "@/components/seo/schemas";
 
 export const metadata: Metadata = {
   title: "Contact | Étude gratuite panneau solaire professionnel",
@@ -28,6 +30,7 @@ const contactInfo = [
 export default function ContactPage() {
   return (
     <>
+      <JsonLd data={getBreadcrumbSchema([{ name: "Contact", url: "/contact" }])} />
       <Breadcrumbs items={[{ label: "Contact" }]} />
 
       <section className="py-8 md:py-16 px-4">

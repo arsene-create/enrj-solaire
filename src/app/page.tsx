@@ -7,6 +7,9 @@ import WhyUsSection from "@/components/sections/WhyUsSection";
 import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import FAQSection from "@/components/sections/FAQSection";
 import CTABannerSection from "@/components/sections/CTABannerSection";
+import JsonLd from "@/components/seo/JsonLd";
+import { getFAQSchema, getLocalBusinessSchema } from "@/components/seo/schemas";
+import { faqItems } from "@/data/faq";
 
 export const metadata: Metadata = {
   title: "ENR-J Solaire | Panneaux Solaires Professionnels : 0€ d'Investissement",
@@ -26,6 +29,8 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <JsonLd data={getFAQSchema(faqItems)} />
+      <JsonLd data={getLocalBusinessSchema()} />
       <HeroSection />
       <HowItWorksSection />
       <OffersSection />
