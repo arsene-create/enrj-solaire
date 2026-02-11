@@ -1,13 +1,13 @@
 import { NextResponse } from "next/server";
 import { simulatorSchema } from "@/lib/schemas";
+import { sendSimulatorEmail } from "@/lib/email";
 
 export async function POST(request: Request) {
   try {
     const body = await request.json();
     const data = simulatorSchema.parse(body);
 
-    // In production: send email, save to CRM, etc.
-    console.log("Simulator submission:", data);
+    await sendSimulatorEmail(data);
 
     return NextResponse.json(
       { success: true, message: "Demande reçue avec succès" },
@@ -16,8 +16,8 @@ export async function POST(request: Request) {
   } catch (error) {
     console.error("Simulator error:", error);
     return NextResponse.json(
-      { success: false, message: "Données invalides" },
-      { status: 400 }
+      { success: false, message: "Erreur lors de l'envoi de la demande" },
+      { status: 500 }
     );
   }
 }

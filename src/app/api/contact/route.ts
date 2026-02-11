@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
+import { sendContactEmail } from "@/lib/email";
 
 const contactSchema = z.object({
   name: z.string().min(2),
@@ -15,8 +16,7 @@ export async function POST(request: Request) {
     const body = await request.json();
     const data = contactSchema.parse(body);
 
-    // In production: send email, save to CRM, etc.
-    console.log("Contact submission:", data);
+    await sendContactEmail(data);
 
     return NextResponse.json(
       { success: true, message: "Message reçu avec succès" },
@@ -25,8 +25,8 @@ export async function POST(request: Request) {
   } catch (error) {
     console.error("Contact error:", error);
     return NextResponse.json(
-      { success: false, message: "Données invalides" },
-      { status: 400 }
+      { success: false, message: "Erreur lors de l'envoi du message" },
+      { status: 500 }
     );
   }
 }
