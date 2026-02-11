@@ -31,7 +31,7 @@ const advantages = [
     icon: Wrench,
     title: "Maintenance incluse",
     description:
-      "Monitoring en temps réel, nettoyage des panneaux, remplacement onduleurs — pendant toute la durée du contrat (15-25 ans).",
+      "Monitoring en temps réel, nettoyage des panneaux, remplacement onduleurs. Pendant toute la durée du contrat (30 ans).",
   },
   {
     icon: Scale,
@@ -41,9 +41,9 @@ const advantages = [
   },
   {
     icon: ShieldCheck,
-    title: "Garantie 25 ans",
+    title: "Garantie 30 ans",
     description:
-      "Panneaux garantis 25 ans en performance (>80% de rendement à 25 ans). Onduleurs garantis 10 à 20 ans selon le modèle.",
+      "Panneaux garantis 30 ans en performance (>80% de rendement à 30 ans). Onduleurs garantis 10 à 20 ans selon le modèle.",
   },
 ];
 

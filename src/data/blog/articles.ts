@@ -46,7 +46,7 @@ Vous financez vous-même l'installation des ombrières photovoltaïques. Vous ê
 
 ### Le tiers-investissement
 
-Un investisseur tiers finance l'intégralité de l'installation. Vous n'avez aucun investissement à réaliser, ce qui est la solution de référence pour de nombreux gestionnaires. En contrepartie, l'investisseur perçoit les revenus de la production d'électricité pendant une durée contractuelle de 15 à 25 ans. À l'issue du contrat, l'installation vous est transférée ou bien elle est démontée selon les termes convenus.
+Un investisseur tiers finance l'intégralité de l'installation. Vous n'avez aucun investissement à réaliser, ce qui est la solution de référence pour de nombreux gestionnaires. En contrepartie, l'investisseur perçoit les revenus de la production d'électricité pendant une durée contractuelle de 30 ans. À l'issue du contrat, l'installation vous est transférée ou bien elle est démontée selon les termes convenus.
 
 ### Le crédit-bail
 
@@ -69,16 +69,16 @@ ENR-J Solaire accompagne les gestionnaires de parkings dans la mise en conformit
     slug: "tiers-investissement-solaire-explication",
     title: "Tiers-investissement solaire : les 3 modèles",
     excerpt:
-      "Le tiers-investissement permet d'installer des panneaux solaires sans investissement initial. Découvrez les trois modèles existants (location de toiture, PPA, crédit-bail), les durées réelles de 15 à 25 ans et les conditions de fin de contrat.",
+      "Le tiers-investissement permet d'installer des panneaux solaires sans investissement initial. Découvrez les trois modèles existants (location de toiture, abonnement solaire, crédit-bail), les durées réelles de 30 ans et les conditions de fin de contrat.",
     content: `Le tiers-investissement est un mécanisme de financement qui permet aux entreprises, collectivités et exploitants agricoles d'installer une centrale solaire photovoltaïque sans avancer le moindre euro. Ce modèle séduit de plus en plus de professionnels, mais il est essentiel d'en comprendre les mécanismes réels, les durées de contrat et les différentes variantes pour faire un choix éclairé.
 
 ## Le principe fondamental du tiers-investissement
 
 Le tiers-investissement repose sur un principe simple : un investisseur tiers prend en charge l'intégralité du financement de l'installation photovoltaïque. Cet investisseur assure la conception, l'installation, le raccordement et la maintenance de la centrale solaire pendant toute la durée du contrat. En contrepartie, il perçoit les revenus générés par la production d'électricité pendant une durée contractuelle déterminée. Le propriétaire du bâtiment ou du terrain met à disposition sa toiture ou son foncier et bénéficie d'avantages divers selon le modèle choisi.
 
-## Les durées réelles de contrat : 15 à 25 ans
+## Les durées réelles de contrat : 30 ans
 
-La durée typique d'un contrat de tiers-investissement se situe entre 15 et 25 ans. Cette durée s'explique par plusieurs facteurs économiques et techniques fondamentaux.
+La durée typique d'un contrat de tiers-investissement est de 30 ans. Cette durée s'explique par plusieurs facteurs économiques et techniques fondamentaux.
 
 Premièrement, le contrat d'obligation d'achat EDF OA, qui garantit un tarif de rachat fixe, s'étend sur 20 ans. L'investisseur structure généralement son modèle économique sur cette durée pour sécuriser ses revenus. Deuxièmement, le coût d'une installation photovoltaïque professionnelle est significatif (entre 750 et 1 300 euros par kWc selon la puissance) et nécessite un temps d'amortissement suffisant pour être rentable. Troisièmement, les frais d'exploitation, de maintenance, d'assurance et de monitoring doivent également être couverts sur la durée du contrat.
 
@@ -88,15 +88,15 @@ La durée exacte dépend de la taille de l'installation, de son productible esti
 
 Dans ce modèle, vous mettez votre toiture à disposition de l'investisseur qui y installe des panneaux photovoltaïques. L'investisseur est propriétaire de l'installation et perçoit l'intégralité des revenus de la revente d'électricité à EDF OA. En échange, vous percevez un loyer annuel pour la mise à disposition de votre toiture, généralement compris entre 2 et 4 euros par m² et par an, selon la localisation géographique et l'ensoleillement du site.
 
-La durée typique de ce contrat est de 20 à 25 ans. Vous ne consommez pas l'électricité produite, qui est intégralement revendue au réseau. La maintenance est entièrement à la charge de l'investisseur. En fin de contrat, l'installation vous est transférée gratuitement ou elle est démontée aux frais de l'investisseur, selon les termes négociés à la signature.
+La durée typique de ce contrat est de 30 ans. Vous ne consommez pas l'électricité produite, qui est intégralement revendue au réseau. La maintenance est entièrement à la charge de l'investisseur. En fin de contrat, l'installation vous est transférée gratuitement ou elle est démontée aux frais de l'investisseur, selon les termes négociés à la signature.
 
 Ce modèle est idéal pour les propriétaires fonciers, les exploitants agricoles disposant de grands hangars, et tous ceux qui souhaitent un revenu passif garanti sans aucune implication dans la gestion de l'installation.
 
-## Modèle 2 : le contrat PPA (Power Purchase Agreement)
+## Modèle 2 : l'abonnement solaire (anciennement appelé PPA)
 
-Le PPA est un contrat d'achat d'électricité à prix fixe entre le producteur (l'investisseur tiers) et le consommateur (vous). L'investisseur installe les panneaux sur votre site et vous vend l'électricité produite à un tarif inférieur au prix du réseau, généralement 10 à 20 % en dessous du tarif en vigueur. Ce modèle est particulièrement adapté aux entreprises ayant une consommation électrique importante et régulière en journée.
+L'abonnement solaire est un contrat d'achat d'électricité à prix fixe entre le producteur (l'investisseur tiers) et le consommateur (vous). L'investisseur installe les panneaux sur votre site et vous vend l'électricité produite à un tarif inférieur au prix du réseau, généralement 10 à 20 % en dessous du tarif en vigueur. Ce modèle est particulièrement adapté aux entreprises ayant une consommation électrique importante et régulière en journée.
 
-Avec un PPA, vous réalisez des économies immédiates sur votre facture d'électricité puisque le prix de l'énergie solaire est contractuellement fixé en dessous du tarif réseau. De plus, ce prix est généralement indexé avec une revalorisation annuelle limitée (typiquement 1 à 2 % par an), très inférieure à l'évolution des prix de l'électricité du réseau qui augmentent de 4 à 8 % par an ces dernières années. La durée des contrats PPA est typiquement de 15 à 20 ans.
+Avec un abonnement solaire, vous réalisez des économies immédiates sur votre facture d'électricité puisque le prix de l'énergie solaire est contractuellement fixé en dessous du tarif réseau. De plus, ce prix est généralement indexé avec une revalorisation annuelle limitée (typiquement 1 à 2 % par an), très inférieure à l'évolution des prix de l'électricité du réseau qui augmentent de 4 à 8 % par an ces dernières années. La durée des contrats d'abonnement solaire est typiquement de 15 à 20 ans.
 
 Ce modèle est idéal pour les industriels, les sites tertiaires avec forte consommation diurne (ateliers, entrepôts frigorifiques, usines de transformation).
 
@@ -112,12 +112,12 @@ Ce modèle est idéal pour les entreprises souhaitant devenir propriétaires de 
 
 La fin du contrat est un moment clé qui doit être anticipé dès la signature. Deux scénarios principaux existent :
 
-- **Transfert de propriété** : l'installation vous est transférée, souvent gratuitement ou pour un montant symbolique. Vous devenez propriétaire des panneaux qui ont encore une durée de vie significative. Les panneaux modernes sont garantis 25 ans en performance avec une durée de vie effective de 30 à 40 ans. Vous continuez à bénéficier de l'électricité produite sans coût d'investissement supplémentaire.
+- **Transfert de propriété** : l'installation vous est transférée, souvent gratuitement ou pour un montant symbolique. Vous devenez propriétaire des panneaux qui ont encore une durée de vie significative. Les panneaux modernes sont garantis 30 ans en performance avec une durée de vie effective de 30 à 40 ans. Vous continuez à bénéficier de l'électricité produite sans coût d'investissement supplémentaire.
 - **Démontage** : l'investisseur procède au démontage de l'installation à ses frais et remet le site dans son état initial. Ce scénario est plus rare et généralement moins avantageux pour le propriétaire du site.
 
 ## Les garanties incluses dans un contrat de tiers-investissement
 
-Un contrat de tiers-investissement bien structuré inclut plusieurs garanties essentielles : zéro euro d'investissement initial, maintenance préventive et corrective incluse pendant toute la durée du contrat, monitoring en temps réel de la production, assurance tous risques souscrite par l'investisseur, panneaux garantis 25 ans en performance, et remplacement des onduleurs et pièces défectueuses sans frais.
+Un contrat de tiers-investissement bien structuré inclut plusieurs garanties essentielles : zéro euro d'investissement initial, maintenance préventive et corrective incluse pendant toute la durée du contrat, monitoring en temps réel de la production, assurance tous risques souscrite par l'investisseur, panneaux garantis 30 ans en performance, et remplacement des onduleurs et pièces défectueuses sans frais.
 
 ENR-J Solaire vous accompagne dans le choix du modèle le plus adapté à votre situation et structure des contrats équilibrés qui préservent vos intérêts sur le long terme.`,
     date: "2025-12-15",
@@ -542,7 +542,7 @@ Plusieurs ressources permettent d'identifier les aides auxquelles vous pouvez pr
 
 ## L'alternative : le tiers-investissement sans aide
 
-Avec le modèle tiers-investissement d'ENR-J Solaire, vous n'avez besoin d'aucune aide : l'installation est intégralement financée par l'investisseur. Pas de dossier de subvention, pas d'avance de trésorerie, pas de risque financier. L'installation est à 0 euro d'investissement avec maintenance incluse pendant 15 à 25 ans. Notre équipe réalise systématiquement un audit des aides disponibles pour chaque projet afin d'optimiser le plan de financement.`,
+Avec le modèle tiers-investissement d'ENR-J Solaire, vous n'avez besoin d'aucune aide : l'installation est intégralement financée par l'investisseur. Pas de dossier de subvention, pas d'avance de trésorerie, pas de risque financier. L'installation est à 0 euro d'investissement avec maintenance incluse pendant 30 ans. Notre équipe réalise systématiquement un audit des aides disponibles pour chaque projet afin d'optimiser le plan de financement.`,
     date: "2025-08-05",
     author: "ENR-J Solaire",
     category: "Finance",
@@ -583,7 +583,7 @@ Le prix actuel de l'électricité achetée au réseau détermine l'économie ré
 
 ### La dégradation de performance des panneaux
 
-Les panneaux photovoltaïques perdent progressivement en efficacité. La dégradation typique est de 0,3 à 0,5 % par an. Les fabricants garantissent une performance de 80 à 85 % de la puissance nominale après 25 ans.
+Les panneaux photovoltaïques perdent progressivement en efficacité. La dégradation typique est de 0,3 à 0,5 % par an. Les fabricants garantissent une performance de 80 à 85 % de la puissance nominale après 30 ans.
 
 ## Exemple 1 : PME industrielle en région lyonnaise
 
@@ -598,7 +598,7 @@ Les panneaux photovoltaïques perdent progressivement en efficacité. La dégrad
 - **Revenu net année 1** : 17 595 + 2 015 + 7 000 - 1 000 = 25 610 euros.
 - **Revenu net année 2** : environ 19 500 euros, en croissance avec la hausse du prix de l'électricité.
 - **Temps de retour** : environ 5 ans.
-- **Gain cumulé sur 25 ans** : supérieur à 500 000 euros.
+- **Gain cumulé sur 30 ans** : supérieur à 500 000 euros.
 
 ## Exemple 2 : exploitation agricole dans le Sud-Ouest
 
@@ -625,7 +625,7 @@ Les panneaux photovoltaïques perdent progressivement en efficacité. La dégrad
 - **Négliger les pertes système** : câblage, onduleur, salissure, température = 10 à 15 % de pertes.
 - **Oublier la maintenance** : prévoir 1 à 2 % du coût d'investissement par an.
 - **Ignorer le remplacement de l'onduleur** : durée de vie de 10 à 15 ans pour un onduleur central. Prévoir son remplacement dans le plan financier.
-- **Sous-estimer la hausse du prix de l'électricité** : chaque point de hausse annuelle supplémentaire améliore significativement le ROI sur 25 ans.
+- **Sous-estimer la hausse du prix de l'électricité** : chaque point de hausse annuelle supplémentaire améliore significativement le ROI sur 30 ans.
 
 ENR-J Solaire réalise des études de rentabilité détaillées pour chaque projet, avec des hypothèses transparentes et conservatrices.`,
     date: "2025-07-12",
@@ -671,7 +671,7 @@ L'onduleur est le composant le plus sollicité et celui qui présente le taux de
 
 ### Défaillance de panneaux
 
-Les panneaux modernes sont très fiables avec un taux de défaillance inférieur à 0,5 % par an. Les défauts les plus courants sont les micro-fissures, les points chauds (hotspots), la dégradation par PID (Potential Induced Degradation), et la délamination. La garantie de performance des panneaux s'étend sur 25 ans, garantissant au moins 80 à 85 % de la puissance nominale en fin de période.
+Les panneaux modernes sont très fiables avec un taux de défaillance inférieur à 0,5 % par an. Les défauts les plus courants sont les micro-fissures, les points chauds (hotspots), la dégradation par PID (Potential Induced Degradation), et la délamination. La garantie de performance des panneaux s'étend sur 30 ans, garantissant au moins 80 à 85 % de la puissance nominale en fin de période.
 
 ### Problèmes de câblage
 
@@ -685,11 +685,11 @@ Pour une installation professionnelle, le budget de maintenance annuel se situe 
 
 Une installation bien entretenue produit 5 à 15 % de plus qu'une installation négligée sur la durée. Le nettoyage régulier seul représente un gain de 3 à 7 % de production annuelle selon l'environnement. La détection précoce et la correction rapide des pannes évitent des pertes cumulées considérables.
 
-Sur 25 ans, la différence entre une installation bien entretenue et une installation sans maintenance peut représenter l'équivalent de deux à trois années de production, soit un manque à gagner de plusieurs dizaines de milliers d'euros.
+Sur 30 ans, la différence entre une installation bien entretenue et une installation sans maintenance peut représenter l'équivalent de deux à trois années de production, soit un manque à gagner de plusieurs dizaines de milliers d'euros.
 
 ## En tiers-investissement : maintenance incluse
 
-Avec ENR-J Solaire, dans le cadre d'un contrat de tiers-investissement (15 à 25 ans), la maintenance est intégralement incluse sans frais supplémentaires : monitoring 24/7, nettoyage périodique, inspection annuelle, remplacement des onduleurs et pièces défectueuses, et intervention corrective sous 48 heures.`,
+Avec ENR-J Solaire, dans le cadre d'un contrat de tiers-investissement (30 ans), la maintenance est intégralement incluse sans frais supplémentaires : monitoring 24/7, nettoyage périodique, inspection annuelle, remplacement des onduleurs et pièces défectueuses, et intervention corrective sous 48 heures.`,
     date: "2025-06-05",
     author: "ENR-J Solaire",
     category: "Guide",
@@ -759,7 +759,7 @@ ENR-J Solaire est certifié RGE QualiPV. Nos équipes suivent un programme de fo
 
 Le temps de retour énergétique (Energy Payback Time) est la durée nécessaire pour qu'un panneau solaire produise autant d'énergie que celle qui a été nécessaire à sa fabrication, son transport et son installation. En France, ce temps de retour est estimé entre 1 et 3 ans selon la technologie et la localisation géographique.
 
-Pour les panneaux en silicium monocristallin, les plus courants aujourd'hui, le temps de retour est d'environ 1,5 à 2 ans dans le sud de la France et de 2 à 3 ans dans le nord. Sachant que les panneaux sont garantis 25 ans en performance et ont une durée de vie effective de 30 à 40 ans, ils produisent donc 10 à 25 fois plus d'énergie qu'ils n'en ont consommé pour leur fabrication. Ce ratio fait du photovoltaïque l'une des sources d'énergie les plus efficientes en termes de bilan énergétique net.
+Pour les panneaux en silicium monocristallin, les plus courants aujourd'hui, le temps de retour est d'environ 1,5 à 2 ans dans le sud de la France et de 2 à 3 ans dans le nord. Sachant que les panneaux sont garantis 30 ans en performance et ont une durée de vie effective de 30 à 40 ans, ils produisent donc 10 à 25 fois plus d'énergie qu'ils n'en ont consommé pour leur fabrication. Ce ratio fait du photovoltaïque l'une des sources d'énergie les plus efficientes en termes de bilan énergétique net.
 
 ## Le bilan carbone comparé
 
@@ -772,7 +772,7 @@ Le bilan carbone d'une source d'énergie s'exprime en grammes de CO2 équivalent
 - **Charbon** : 820 g CO2eq/kWh.
 - **Fioul** : 730 g CO2eq/kWh.
 
-Le photovoltaïque émet 10 à 30 fois moins de CO2 que les énergies fossiles. Pour une installation de 100 kWc produisant 115 MWh par an, le bilan carbone évité par rapport au mix moyen européen (environ 300 g CO2eq/kWh) est d'environ 30 tonnes de CO2 par an, soit 750 tonnes sur 25 ans.
+Le photovoltaïque émet 10 à 30 fois moins de CO2 que les énergies fossiles. Pour une installation de 100 kWc produisant 115 MWh par an, le bilan carbone évité par rapport au mix moyen européen (environ 300 g CO2eq/kWh) est d'environ 30 tonnes de CO2 par an, soit 750 tonnes sur 30 ans.
 
 ## L'origine des émissions de fabrication
 
@@ -792,9 +792,9 @@ Les panneaux en silicium cristallin sont recyclables à plus de 94 %. Le process
 
 ## La durée de vie réelle des panneaux
 
-Les panneaux modernes bénéficient d'une garantie de performance de 25 ans, assurant généralement 90 % de la puissance nominale après 10 ans et 80 à 85 % après 25 ans. La dégradation annuelle typique est de 0,3 à 0,5 % par an.
+Les panneaux modernes bénéficient d'une garantie de performance de 30 ans, assurant généralement 90 % de la puissance nominale après 10 ans et 80 à 85 % après 30 ans. La dégradation annuelle typique est de 0,3 à 0,5 % par an.
 
-La durée de vie effective dépasse largement la durée de garantie. Des études menées sur des installations en fonctionnement depuis plus de 30 ans montrent que les panneaux continuent de produire avec des performances acceptables bien au-delà de 25 ans. Une durée de vie de 35 à 40 ans est réaliste pour des panneaux de bonne qualité correctement installés et entretenus.
+La durée de vie effective dépasse largement la durée de garantie. Des études menées sur des installations en fonctionnement depuis plus de 30 ans montrent que les panneaux continuent de produire avec des performances acceptables bien au-delà de 30 ans. Une durée de vie de 35 à 40 ans est réaliste pour des panneaux de bonne qualité correctement installés et entretenus.
 
 ## L'empreinte eau et sols
 
@@ -905,7 +905,7 @@ Les optimiseurs constituent une solution intermédiaire. Installés sous chaque 
 
 ### Le rendement
 
-Les onduleurs modernes affichent des rendements de 96 à 98,5 %. Un point de rendement supplémentaire sur une installation de 100 kWc représente environ 1 150 kWh de production annuelle en plus, soit environ 200 euros de revenus additionnels par an cumulés sur 25 ans.
+Les onduleurs modernes affichent des rendements de 96 à 98,5 %. Un point de rendement supplémentaire sur une installation de 100 kWc représente environ 1 150 kWh de production annuelle en plus, soit environ 200 euros de revenus additionnels par an cumulés sur 30 ans.
 
 ### La garantie
 
@@ -957,7 +957,7 @@ Le dimensionnement conservateur de l'étude de faisabilité a été confirmé av
 
 ### Caractéristiques
 
-PME de transformation agroalimentaire, consommation de 800 MWh par an avec pic de consommation en journée. Bâtiment soumis au Décret Tertiaire (surface supérieure à 1 000 m²). Installation de 400 kWc en autoconsommation via un contrat PPA (Power Purchase Agreement) avec prix du kWh solaire inférieur de 15 % au tarif réseau. Mise en service en juin 2022.
+PME de transformation agroalimentaire, consommation de 800 MWh par an avec pic de consommation en journée. Bâtiment soumis au Décret Tertiaire (surface supérieure à 1 000 m²). Installation de 400 kWc en autoconsommation via un abonnement solaire (anciennement appelé PPA) avec prix du kWh solaire inférieur de 15 % au tarif réseau. Mise en service en juin 2022.
 
 ### Résultats après trois ans
 
@@ -967,7 +967,7 @@ Un seul incident technique en trois ans : un optimiseur remplacé sous garantie 
 
 ### Enseignements
 
-Le contrat PPA a permis de réduire la facture énergétique sans investir. L'optimisation des horaires de production de l'usine a significativement amélioré le taux d'autoconsommation par rapport aux prévisions. Le solaire est un levier concret pour la conformité au Décret Tertiaire.
+L'abonnement solaire a permis de réduire la facture énergétique sans investir. L'optimisation des horaires de production de l'usine a significativement amélioré le taux d'autoconsommation par rapport aux prévisions. Le solaire est un levier concret pour la conformité au Décret Tertiaire.
 
 ## Cas 3 : ombrières de parking logistique en région lyonnaise
 

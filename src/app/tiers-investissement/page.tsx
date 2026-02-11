@@ -13,14 +13,14 @@ const service = services.find((s) => s.slug === "tiers-investissement")!;
 export const metadata: Metadata = {
   title: "Tiers-Investissement Solaire | Financement sans apport",
   description:
-    "Tiers-investissement solaire : un investisseur finance votre installation PV. Loyer de toiture, PPA ou crédit-bail. Contrat 15-25 ans.",
+    "Tiers-investissement solaire : un investisseur finance votre installation PV. Loyer de toiture, abonnement solaire ou crédit-bail. Contrat 30 ans.",
   alternates: {
     canonical: "https://www.enrj-solaire.fr/tiers-investissement",
   },
   openGraph: {
     title: "Tiers-Investissement Solaire | ENR-J Solaire",
     description:
-      "0€ d'investissement. Un tiers finance, installe et maintient votre centrale solaire. Trois modèles : location de toiture, PPA, crédit-bail.",
+      "0€ d'investissement. Un tiers finance, installe et maintient votre centrale solaire. Trois modèles : location de toiture, abonnement solaire, crédit-bail.",
   },
 };
 
@@ -38,7 +38,7 @@ const timeline = [
       "Pose des panneaux par des équipes certifiées RGE QualiPV. Mise en service et raccordement au réseau.",
   },
   {
-    period: "Années 1-25",
+    period: "Années 1-30",
     title: "Exploitation & maintenance",
     description:
       "L'investisseur exploite la centrale. Vous bénéficiez d'un loyer de toiture ou d'une électricité à prix réduit. Monitoring et maintenance inclus.",
@@ -63,7 +63,7 @@ const models = [
     ],
   },
   {
-    name: "PPA (Power Purchase Agreement)",
+    name: "Abonnement solaire",
     description: "Vous achetez l'électricité produite sur votre toiture à un prix inférieur au tarif réseau.",
     ideal: "Industriels, grandes surfaces, logistique",
     avantages: [
@@ -139,11 +139,11 @@ export default function TiersInvestissementPage() {
                 <p className="text-sm text-muted-foreground mt-1">d&apos;investissement</p>
               </div>
               <div>
-                <p className="text-3xl font-extrabold text-secondary">15-25 ans</p>
+                <p className="text-3xl font-extrabold text-secondary">30 ans</p>
                 <p className="text-sm text-muted-foreground mt-1">durée de contrat</p>
               </div>
               <div>
-                <p className="text-3xl font-extrabold text-primary">25 ans</p>
+                <p className="text-3xl font-extrabold text-primary">30 ans</p>
                 <p className="text-sm text-muted-foreground mt-1">garantie panneaux</p>
               </div>
             </div>
@@ -233,7 +233,7 @@ export default function TiersInvestissementPage() {
                   <td className="py-3 px-4">
                     <span className="flex items-center gap-1">
                       <CheckCircle className="w-4 h-4 text-primary" />
-                      Incluse (15-25 ans)
+                      Incluse (30 ans)
                     </span>
                   </td>
                 </tr>
@@ -270,11 +270,11 @@ export default function TiersInvestissementPage() {
                 <tr className="border-b border-border/50">
                   <td className="py-3 px-4 font-medium">Propriété</td>
                   <td className="py-3 px-4">Immédiate</td>
-                  <td className="py-3 px-4">En fin de contrat (15-25 ans)</td>
+                  <td className="py-3 px-4">En fin de contrat (30 ans)</td>
                 </tr>
                 <tr>
                   <td className="py-3 px-4 font-medium">Revenus totaux</td>
-                  <td className="py-3 px-4">Supérieurs sur 25 ans</td>
+                  <td className="py-3 px-4">Supérieurs sur 30 ans</td>
                   <td className="py-3 px-4">Inférieurs mais sans risque ni capital</td>
                 </tr>
               </tbody>

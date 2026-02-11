@@ -51,16 +51,29 @@ export const CTA_PHONE = {
 } as const;
 
 export const STATS = [
-  { value: 25.3, suffix: " GW", label: "Capacité solaire installée en France" },
-  { value: 48, prefix: "+", suffix: "%", label: "Croissance du marché solaire en 2024" },
-  { value: 60, prefix: "+", suffix: "%", label: "Hausse du prix de l'électricité depuis 2021" },
-  { value: 1112, suffix: " kWh/kWc", label: "Production annuelle en Auvergne-Rhône-Alpes" },
+  { value: 7.5, suffix: " MWc", label: "Puissance installée par ENR'J" },
+  { value: 150, prefix: "+", suffix: "", label: "Projets installés depuis le début" },
+  { value: 10, prefix: "+", suffix: "M€", label: "De centrales solaires financées" },
+  { value: 20, prefix: "+", suffix: "", label: "Collaborateurs dédiés" },
+] as const;
+
+export const DISTINCTIONS = [
+  {
+    title: "Prix Innover et Entreprendre",
+    description:
+      "Lauréat du Prix Innover et Entreprendre pour notre modèle de tiers-investissement solaire, récompensant l'innovation dans le financement de la transition énergétique.",
+  },
+  {
+    title: "Partenaire officiel de l'équipe d'aviron de l'ESCP",
+    description:
+      "ENR'J est partenaire officiel de l'équipe d'aviron de l'ESCP Business School, soutenant la performance sportive et les valeurs d'engagement collectif.",
+  },
 ] as const;
 
 export const MARKET_DATA = {
   // Capacité installée France (source : RTE/Enedis 2024)
-  capaciteInstallee: "25,3 GW",
-  croissanceMarche: "+48% en 2024",
+  capaciteInstallee: "7,5 MWc",
+  croissanceMarche: "+150 projets installés",
   haussePrixElec: "+60% depuis 2021",
   productionARA: "1 112 kWh/kWc/an",
 
@@ -106,8 +119,8 @@ export const MARKET_DATA = {
 
   // Tiers-investissement
   tiersInvestissement: {
-    dureeTypique: "15 à 25 ans",
-    garantiePanneaux: "25 ans",
+    dureeTypique: "30 ans",
+    garantiePanneaux: "30 ans",
     dureeContratEdfOa: "20 ans",
   },
 } as const;

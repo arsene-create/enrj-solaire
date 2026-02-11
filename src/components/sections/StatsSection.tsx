@@ -3,10 +3,10 @@
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { value: 25.3, decimals: 1, suffix: " GW", label: "Capacité solaire installée en France" },
-  { value: 48, decimals: 0, prefix: "+", suffix: "%", label: "Croissance du marché solaire en 2024" },
-  { value: 60, decimals: 0, prefix: "+", suffix: "%", label: "Hausse du prix de l'électricité depuis 2021" },
-  { value: 1112, decimals: 0, suffix: " kWh/kWc", label: "Production annuelle en Auvergne-Rhône-Alpes" },
+  { value: 7.5, decimals: 1, suffix: " MWc", label: "Puissance installée par ENR'J" },
+  { value: 150, decimals: 0, prefix: "+", suffix: "", label: "Projets installés depuis le début" },
+  { value: 10, decimals: 0, prefix: "+", suffix: "M€", label: "De centrales solaires financées" },
+  { value: 20, decimals: 0, prefix: "+", suffix: "", label: "Collaborateurs dédiés" },
 ];
 
 function AnimatedCounter({
@@ -106,7 +106,7 @@ export default function StatsSection() {
 
         <div className="text-center mt-10">
           <p className="text-xs text-white/25">
-            Sources : RTE, Enedis, CRE — Données 2024
+            Données ENR'J Solaire, 2025
           </p>
         </div>
       </div>

@@ -43,7 +43,7 @@ export default function ToituresIndustriellesPage() {
             </div>
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
-                Décret Tertiaire — Obligations de réduction
+                Décret Tertiaire : obligations de réduction
               </h2>
               <p className="text-muted-foreground leading-relaxed">
                 Le dispositif Éco Énergie Tertiaire concerne tous les bâtiments à usage
@@ -88,7 +88,7 @@ export default function ToituresIndustriellesPage() {
             </div>
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
-                Exemple chiffré — Usine de 3 000 m²
+                Exemple chiffré : usine de 3 000 m²
               </h2>
               <p className="text-muted-foreground">
                 Simulation pour une toiture industrielle plate en autoconsommation.

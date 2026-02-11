@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     canonical: "https://www.enrj-solaire.fr/hangars-agricoles",
   },
   openGraph: {
-    title: "Hangar Agricole Solaire — 0€ d'investissement | ENR-J Solaire",
+    title: "Hangar Agricole Solaire : 0€ d'investissement | ENR-J Solaire",
     description:
-      "Valorisez votre toiture agricole avec le photovoltaïque. Loyer de toiture, autoconsommation ou revente EDF OA. Maintenance incluse 15-25 ans.",
+      "Valorisez votre toiture agricole avec le photovoltaïque. Loyer de toiture, autoconsommation ou revente EDF OA. Maintenance incluse 30 ans.",
   },
 };
 
@@ -50,7 +50,7 @@ export default function HangarsAgricolesPage() {
             </div>
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
-                Cadre agrivoltaïsme — Décret 2024
+                Cadre agrivoltaïsme, Décret 2024
               </h2>
               <p className="text-muted-foreground leading-relaxed">
                 Le décret relatif à l&apos;agrivoltaïsme encadre l&apos;installation de panneaux
@@ -172,7 +172,7 @@ export default function HangarsAgricolesPage() {
               </ul>
             </div>
             <div className="p-6 rounded-2xl border-2 border-secondary/20 hover:border-secondary/40 transition-colors">
-              <h3 className="text-lg font-bold text-foreground mb-3">Autoconsommation (PPA)</h3>
+              <h3 className="text-lg font-bold text-foreground mb-3">Autoconsommation (abonnement solaire)</h3>
               <p className="text-muted-foreground text-sm mb-4">
                 Vous consommez l&apos;électricité produite à un tarif inférieur au marché.
                 Le surplus est revendu.

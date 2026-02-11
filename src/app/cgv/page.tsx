@@ -45,7 +45,7 @@ export default function CGVPage() {
       <p>Les garanties comprennent :</p>
       <ul className="list-disc pl-6 space-y-1 my-4">
         <li>Garantie décennale sur l&apos;installation</li>
-        <li>Garantie fabricant des panneaux : 25 ans en performance (&gt;80% de rendement)</li>
+        <li>Garantie fabricant des panneaux : 30 ans en performance (&gt;80% de rendement)</li>
         <li>Garantie onduleur : 10 à 20 ans selon le modèle</li>
         <li>Garantie de performance de production</li>
       </ul>

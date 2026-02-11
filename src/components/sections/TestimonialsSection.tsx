@@ -54,7 +54,7 @@ export default function TestimonialsSection() {
             <div>
               <p className="font-bold text-foreground">{testimonial.name}</p>
               <p className="text-sm text-muted-foreground">
-                {testimonial.role} — {testimonial.company}
+                {testimonial.role}, {testimonial.company}
               </p>
               <p className="text-xs text-muted-foreground mt-1">
                 {testimonial.location}

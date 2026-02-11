@@ -7,7 +7,7 @@ import Card from "@/components/ui/Card";
 import { articles } from "@/data/blog/articles";
 
 export const metadata: Metadata = {
-  title: "Blog — Guides solaire professionnel et réglementation",
+  title: "Blog | Guides solaire professionnel et réglementation",
   description:
     "Guides solaire professionnel : Loi APER, Décret Tertiaire, tiers-investissement, tarifs EDF OA 2026. Conseils pour agriculteurs et industriels.",
   alternates: {

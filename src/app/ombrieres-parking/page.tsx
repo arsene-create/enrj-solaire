@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     canonical: "https://www.enrj-solaire.fr/ombrieres-parking",
   },
   openGraph: {
-    title: "Ombrières Parking — Conformité Loi APER | ENR-J Solaire",
+    title: "Ombrières Parking : Conformité Loi APER | ENR-J Solaire",
     description:
       "Mise en conformité Loi APER sans investissement. Ombrières photovoltaïques + bornes IRVE.",
   },
@@ -42,7 +42,7 @@ export default function OmbrieresPage() {
               <AlertTriangle className="w-8 h-8 text-warning shrink-0 mt-1" />
               <div>
                 <h2 className="text-2xl font-bold text-foreground mb-2">
-                  Obligation légale — Loi APER
+                  Obligation légale : Loi APER
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">
                   La loi d&apos;Accélération de la Production d&apos;Énergies Renouvelables

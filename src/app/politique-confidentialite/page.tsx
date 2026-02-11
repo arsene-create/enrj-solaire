@@ -91,7 +91,7 @@ export default function PolitiqueConfidentialitePage() {
       <ul className="list-disc pl-6 space-y-1 my-4">
         <li>Notre équipe commerciale et technique interne</li>
         <li>Nos sous-traitants techniques (hébergeur Vercel, outil d&apos;emailing)</li>
-        <li>Google LLC (Google Analytics — données anonymisées)</li>
+        <li>Google LLC (Google Analytics, données anonymisées)</li>
       </ul>
       <p className="mt-2">
         Aucune donnée n&apos;est vendue à des tiers. Les transferts vers des pays

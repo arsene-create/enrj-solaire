@@ -46,19 +46,19 @@ export default async function CityPage({ params }: PageProps) {
 
   // Production estimée par zone climatique (kWh/kWc/an)
   const productionByRegion: Record<string, { kwhPerKwc: number; zone: string }> = {
-    "Provence-Alpes-Côte d'Azur": { kwhPerKwc: 1350, zone: "H3 — Fort ensoleillement" },
-    "Occitanie": { kwhPerKwc: 1300, zone: "H3 — Fort ensoleillement" },
-    "Corse": { kwhPerKwc: 1400, zone: "H3 — Fort ensoleillement" },
-    "Nouvelle-Aquitaine": { kwhPerKwc: 1200, zone: "H2 — Ensoleillement modéré à fort" },
-    "Auvergne-Rhône-Alpes": { kwhPerKwc: 1112, zone: "H1/H2 — Ensoleillement variable" },
-    "Pays de la Loire": { kwhPerKwc: 1150, zone: "H2 — Ensoleillement modéré" },
-    "Centre-Val de Loire": { kwhPerKwc: 1100, zone: "H2 — Ensoleillement modéré" },
-    "Bourgogne-Franche-Comté": { kwhPerKwc: 1050, zone: "H1 — Ensoleillement modéré" },
-    "Bretagne": { kwhPerKwc: 1050, zone: "H2 — Ensoleillement modéré" },
-    "Normandie": { kwhPerKwc: 1000, zone: "H1 — Ensoleillement modéré" },
-    "Île-de-France": { kwhPerKwc: 1050, zone: "H1 — Ensoleillement modéré" },
-    "Hauts-de-France": { kwhPerKwc: 950, zone: "H1 — Ensoleillement modéré" },
-    "Grand Est": { kwhPerKwc: 1000, zone: "H1 — Ensoleillement modéré" },
+    "Provence-Alpes-Côte d'Azur": { kwhPerKwc: 1350, zone: "H3 : fort ensoleillement" },
+    "Occitanie": { kwhPerKwc: 1300, zone: "H3 : fort ensoleillement" },
+    "Corse": { kwhPerKwc: 1400, zone: "H3 : fort ensoleillement" },
+    "Nouvelle-Aquitaine": { kwhPerKwc: 1200, zone: "H2 : ensoleillement modéré à fort" },
+    "Auvergne-Rhône-Alpes": { kwhPerKwc: 1112, zone: "H1/H2 : ensoleillement variable" },
+    "Pays de la Loire": { kwhPerKwc: 1150, zone: "H2 : ensoleillement modéré" },
+    "Centre-Val de Loire": { kwhPerKwc: 1100, zone: "H2 : ensoleillement modéré" },
+    "Bourgogne-Franche-Comté": { kwhPerKwc: 1050, zone: "H1 : ensoleillement modéré" },
+    "Bretagne": { kwhPerKwc: 1050, zone: "H2 : ensoleillement modéré" },
+    "Normandie": { kwhPerKwc: 1000, zone: "H1 : ensoleillement modéré" },
+    "Île-de-France": { kwhPerKwc: 1050, zone: "H1 : ensoleillement modéré" },
+    "Hauts-de-France": { kwhPerKwc: 950, zone: "H1 : ensoleillement modéré" },
+    "Grand Est": { kwhPerKwc: 1000, zone: "H1 : ensoleillement modéré" },
   };
 
   const regionData = productionByRegion[city.region] ?? { kwhPerKwc: 1100, zone: "Ensoleillement moyen" };
@@ -97,7 +97,7 @@ export default async function CityPage({ params }: PageProps) {
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6">
             <MapPin className="w-4 h-4" />
-            {city.department} — {city.region}
+            {city.department}, {city.region}
           </div>
 
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground leading-tight mb-6">
@@ -110,7 +110,7 @@ export default async function CityPage({ params }: PageProps) {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
             ENR-J Solaire installe vos panneaux photovoltaïques à {city.name} et
             dans tout le département {city.department}. Tiers-investissement :
-            0 € d&apos;investissement initial, maintenance incluse, garantie 25 ans.
+            0 € d&apos;investissement initial, maintenance incluse, garantie 30 ans.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -170,7 +170,7 @@ export default async function CityPage({ params }: PageProps) {
             </h2>
           </div>
           <p className="text-center text-muted-foreground mb-8">
-            {city.region} — {regionData.zone}
+            {city.region}, {regionData.zone}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white rounded-2xl p-6 text-center shadow-sm">
@@ -205,9 +205,9 @@ export default async function CityPage({ params }: PageProps) {
           <div className="space-y-4">
             {[
               `Intervention rapide à ${city.name} et dans le ${city.department}`,
-              "0 € d'investissement initial — le tiers-investisseur finance l'installation",
-              "Contrat de 15 à 25 ans, maintenance incluse",
-              "Panneaux garantis 25 ans en performance (>80% de rendement)",
+              "0 € d'investissement initial : le tiers-investisseur finance l'installation",
+              "Contrat de 30 ans, maintenance incluse",
+              "Panneaux garantis 30 ans en performance (>80% de rendement)",
               "Installateurs certifiés RGE QualiPV",
               "Accompagnement administratif complet (Enedis, EDF OA, permis de construire)",
             ].map((adv) => (

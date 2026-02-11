@@ -41,6 +41,19 @@ export interface Realisation {
   type: string;
   image: string;
   date: string;
+  surface: string;
+  productionAnnuelle: string;
+  modele: string;
+  economie: string;
+  dureeChantier: string;
+  co2Evite: string;
+  details: string[];
+  challenge?: string;
+  testimonial?: {
+    quote: string;
+    author: string;
+    role: string;
+  };
 }
 
 export interface BlogArticle {

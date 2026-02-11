@@ -4,7 +4,7 @@ import RealisationsGrid from "@/components/sections/RealisationsGrid";
 import CTABannerSection from "@/components/sections/CTABannerSection";
 
 export const metadata: Metadata = {
-  title: "Nos Réalisations — Installations Solaires Professionnelles",
+  title: "Nos Réalisations | Installations Solaires Professionnelles",
   description:
     "Nos installations solaires en tiers-investissement : hangars agricoles, toitures industrielles et ombrières de parking en France.",
   alternates: {

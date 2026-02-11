@@ -21,7 +21,7 @@ export default function MentionsLegalesPage() {
         <li>SIRET (siège) : {COMPANY.siret}</li>
         <li>TVA intracommunautaire : {COMPANY.tva}</li>
         <li>RCS : {COMPANY.rcs}</li>
-        <li>Code NAF : {COMPANY.naf} — Travaux de maçonnerie générale et gros œuvre de bâtiment</li>
+        <li>Code NAF : {COMPANY.naf}, Travaux de maçonnerie générale et gros œuvre de bâtiment</li>
         <li>Date de création : {COMPANY.dateCreation}</li>
         <li>Téléphone : {COMPANY.phone}</li>
         <li>Email : {COMPANY.email}</li>

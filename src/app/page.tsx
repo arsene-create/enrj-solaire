@@ -9,7 +9,7 @@ import FAQSection from "@/components/sections/FAQSection";
 import CTABannerSection from "@/components/sections/CTABannerSection";
 
 export const metadata: Metadata = {
-  title: "ENR-J Solaire | Panneaux Solaires Professionnels — 0€ d'Investissement",
+  title: "ENR-J Solaire | Panneaux Solaires Professionnels : 0€ d'Investissement",
   description:
     "Tiers-investissement solaire pour professionnels. Installation photovoltaïque financée à 100%, maintenance incluse. Loi APER, Décret Tertiaire.",
   alternates: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ENR-J Solaire | Votre toiture produit de l'énergie. Sans investir un euro.",
     description:
-      "Nous finançons et installons vos panneaux solaires. 0€ d'investissement, maintenance incluse 15-25 ans.",
+      "Nous finançons et installons vos panneaux solaires. 0€ d'investissement, maintenance incluse 30 ans.",
     url: "https://www.enrj-solaire.fr",
   },
 };

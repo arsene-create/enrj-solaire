@@ -132,9 +132,15 @@ export default function Footer() {
           <p className="text-sm text-white/50">
             © {new Date().getFullYear()} {COMPANY.name}. Tous droits réservés.
           </p>
-          <p className="text-xs text-white/30">
-            SIRET : {COMPANY.siret} — TVA : {COMPANY.tva}
-          </p>
+          <div className="flex flex-wrap items-center gap-3 text-xs text-white/30">
+            <span>SIRET : {COMPANY.siret}</span>
+            <span>·</span>
+            <span>TVA : {COMPANY.tva}</span>
+            <span>·</span>
+            <span>Prix Innover et Entreprendre</span>
+            <span>·</span>
+            <span>Partenaire ESCP Aviron</span>
+          </div>
         </div>
       </div>
     </footer>

@@ -23,7 +23,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.enrj-solaire.fr"),
   title: {
-    default: "ENR-J Solaire | Panneaux Solaires Professionnels — 0€ d'Investissement",
+    default: "ENR-J Solaire | Panneaux Solaires Professionnels : 0€ d'Investissement",
     template: "%s | ENR-J Solaire",
   },
   description:
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ENR-J Solaire | Votre toiture produit de l'énergie. Sans investir un euro.",
     description:
-      "Nous finançons et installons vos panneaux solaires. Loyer de toiture ou autoconsommation. Maintenance incluse 15-25 ans.",
+      "Nous finançons et installons vos panneaux solaires. Loyer de toiture ou autoconsommation. Maintenance incluse 30 ans.",
     type: "website",
     locale: "fr_FR",
     siteName: "ENR-J Solaire",

@@ -4,7 +4,7 @@ export const faqItems: FAQItem[] = [
   {
     question: "Qu'est-ce que le tiers-investissement solaire ?",
     answer:
-      "Le tiers-investissement est un modèle où un investisseur externe finance, installe et exploite une centrale photovoltaïque sur votre bâtiment. Vous n'avez rien à payer : ni l'installation, ni la maintenance. En échange, vous bénéficiez d'un loyer pour votre toiture ou d'une électricité à prix réduit. Le contrat dure généralement 15 à 25 ans. À son terme, vous pouvez récupérer l'installation ou la faire démonter à nos frais.",
+      "Le tiers-investissement est un modèle où un investisseur externe finance, installe et exploite une centrale photovoltaïque sur votre bâtiment. Vous n'avez rien à payer : ni l'installation, ni la maintenance. En échange, vous bénéficiez d'un loyer pour votre toiture ou d'une électricité à prix réduit. Le contrat dure généralement 30 ans. À son terme, vous pouvez récupérer l'installation ou la faire démonter à nos frais.",
   },
   {
     question: "Mon exploitation agricole est-elle éligible ?",
@@ -29,12 +29,12 @@ export const faqItems: FAQItem[] = [
   {
     question: "Qui prend en charge la maintenance ?",
     answer:
-      "Dans le cadre du tiers-investissement, toute la maintenance est incluse pendant la durée du contrat (15 à 25 ans). Cela comprend le monitoring en temps réel de la production, le nettoyage des panneaux, le remplacement des onduleurs si nécessaire, et les interventions correctives. Notre équipe technique intervient sous 48h ouvrées en cas d'anomalie détectée. Vous n'avez aucun frais de maintenance à prévoir.",
+      "Dans le cadre du tiers-investissement, toute la maintenance est incluse pendant la durée du contrat (30 ans). Cela comprend le monitoring en temps réel de la production, le nettoyage des panneaux, le remplacement des onduleurs si nécessaire, et les interventions correctives. Notre équipe technique intervient sous 48h ouvrées en cas d'anomalie détectée. Vous n'avez aucun frais de maintenance à prévoir.",
   },
   {
     question: "Que se passe-t-il en fin de contrat ?",
     answer:
-      "À l'issue du contrat de tiers-investissement (15-25 ans), deux options s'offrent à vous : soit vous récupérez l'installation gratuitement et devenez propriétaire de la centrale solaire, soit nous procédons au démontage à nos frais et remettons votre toiture en état. Si vous conservez l'installation, les panneaux ont encore une durée de vie de 10 à 15 ans avec un rendement supérieur à 80% de la puissance initiale (garantie constructeur 25 ans).",
+      "À l'issue du contrat de tiers-investissement (30 ans), deux options s'offrent à vous : soit vous récupérez l'installation gratuitement et devenez propriétaire de la centrale solaire, soit nous procédons au démontage à nos frais et remettons votre toiture en état. Si vous conservez l'installation, les panneaux ont encore une durée de vie de 10 à 15 ans avec un rendement supérieur à 80% de la puissance initiale (garantie constructeur 30 ans).",
   },
   {
     question: "Mon activité sera-t-elle perturbée pendant l'installation ?",
@@ -44,7 +44,7 @@ export const faqItems: FAQItem[] = [
   {
     question: "Quelles sont les garanties sur les panneaux solaires ?",
     answer:
-      "Les panneaux photovoltaïques que nous installons bénéficient d'une garantie produit de 12 à 15 ans et d'une garantie de performance de 25 ans (rendement supérieur à 80% de la puissance nominale à 25 ans). Les onduleurs sont garantis 10 à 20 ans selon le modèle. La structure de montage est garantie contre la corrosion pendant 20 ans. L'ensemble est couvert par notre assurance décennale et notre responsabilité civile professionnelle.",
+      "Les panneaux photovoltaïques que nous installons bénéficient d'une garantie produit de 12 à 15 ans et d'une garantie de performance de 30 ans (rendement supérieur à 80% de la puissance nominale à 30 ans). Les onduleurs sont garantis 10 à 20 ans selon le modèle. La structure de montage est garantie contre la corrosion pendant 20 ans. L'ensemble est couvert par notre assurance décennale et notre responsabilité civile professionnelle.",
   },
   {
     question: "Comment déclarer les revenus issus de mon installation solaire ?",

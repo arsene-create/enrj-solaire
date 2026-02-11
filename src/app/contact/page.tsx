@@ -5,7 +5,7 @@ import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import ContactForm from "@/components/forms/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact — Étude gratuite panneau solaire professionnel",
+  title: "Contact | Étude gratuite panneau solaire professionnel",
   description:
     "Contactez ENR-J Solaire pour votre projet photovoltaïque. Étude de faisabilité gratuite, réponse sous 48h. Tiers-investissement sans apport.",
   alternates: {

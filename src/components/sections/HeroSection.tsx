@@ -1,11 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Phone, Shield, Zap, TrendingUp, Sun } from "lucide-react";
+import { ArrowRight, Phone, Shield, Zap, TrendingUp, Sun, Trophy, Handshake } from "lucide-react";
 
 const badges = [
   { icon: Zap, text: "0€ d'investissement" },
-  { icon: Shield, text: "Garantie 25 ans" },
-  { icon: TrendingUp, text: "25+ GW installés en France" },
+  { icon: Shield, text: "Garantie 30 ans" },
+  { icon: TrendingUp, text: "+150 projets installés" },
+  { icon: Trophy, text: "Prix Innover et Entreprendre" },
+  { icon: Handshake, text: "Partenaire ESCP Aviron" },
 ];
 
 export default function HeroSection() {
@@ -104,7 +106,7 @@ export default function HeroSection() {
               className="inline-flex items-center gap-2 text-white/40 hover:text-white/70 transition-colors text-sm"
             >
               <Phone className="w-4 h-4" />
-              01 84 60 20 21 — Étude gratuite et sans engagement
+              01 84 60 20 21 · Étude gratuite et sans engagement
             </a>
           </div>
         </div>

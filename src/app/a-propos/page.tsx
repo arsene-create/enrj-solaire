@@ -15,17 +15,19 @@ import {
   CheckCircle,
   Zap,
   TrendingUp,
+  Trophy,
+  Handshake,
 } from "lucide-react";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import StatsSection from "@/components/sections/StatsSection";
 import CTABannerSection from "@/components/sections/CTABannerSection";
-import { COMPANY } from "@/lib/constants";
+import { COMPANY, DISTINCTIONS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "À propos — Tiers-investissement solaire pour professionnels",
+  title: "À propos | Tiers-investissement solaire pour professionnels",
   description:
-    "ENR'J : panneaux photovoltaïques pour professionnels en tiers-investissement. Certifié RGE QualiPV, maintenance incluse 15-25 ans.",
+    "ENR'J : panneaux photovoltaïques pour professionnels en tiers-investissement. Certifié RGE QualiPV, maintenance incluse 30 ans.",
   alternates: {
     canonical: "https://www.enr-j.com/a-propos",
   },
@@ -41,7 +43,7 @@ const values = [
     icon: Target,
     title: "Expertise technique",
     description:
-      "Équipes certifiées RGE QualiPV 500. Sélection rigoureuse des panneaux, onduleurs et structures de montage pour garantir performance et durabilité sur 25 ans minimum.",
+      "Équipes certifiées RGE QualiPV 500. Sélection rigoureuse des panneaux, onduleurs et structures de montage pour garantir performance et durabilité sur 30 ans minimum.",
   },
   {
     icon: Heart,
@@ -59,7 +61,7 @@ const values = [
     icon: Award,
     title: "Maintenance garantie",
     description:
-      "Monitoring en temps réel, nettoyage, remplacement onduleurs. Maintenance incluse pendant toute la durée du contrat (15-25 ans).",
+      "Monitoring en temps réel, nettoyage, remplacement onduleurs. Maintenance incluse pendant toute la durée du contrat (30 ans).",
   },
 ];
 
@@ -216,8 +218,8 @@ export default function AProposPage() {
             <p>
               {COMPANY.name} est née en <strong className="text-foreground">2019</strong> d&apos;une
               conviction forte : les professionnels veulent valoriser leur patrimoine
-              bâti avec le solaire, mais le coût d&apos;investissement — souvent supérieur
-              à 100 000 € — reste un frein majeur. Le tiers-investissement résout
+              bâti avec le solaire, mais le coût d&apos;investissement, souvent supérieur
+              à 100 000 €, reste un frein majeur. Le tiers-investissement résout
               cette équation : un investisseur externe finance l&apos;installation, et
               vous bénéficiez d&apos;un loyer de toiture ou d&apos;une électricité à
               prix réduit.
@@ -226,8 +228,8 @@ export default function AProposPage() {
               Fondée par <strong className="text-foreground">Louis Hunsinger</strong>,
               la société s&apos;est d&apos;abord spécialisée dans les travaux de rénovation
               énergétique et la pose de systèmes d&apos;énergie renouvelable. Après une
-              croissance rapide — <strong className="text-foreground">1,6 million d&apos;euros
-              de chiffre d&apos;affaires</strong> en 2021 et un résultat net de 456 000 € —
+              croissance rapide (<strong className="text-foreground">1,6 million d&apos;euros
+              de chiffre d&apos;affaires</strong> en 2021 et un résultat net de 456 000 €),
               la société a élargi son offre vers le photovoltaïque professionnel à grande
               échelle, en tiers-investissement.
             </p>
@@ -314,8 +316,52 @@ export default function AProposPage() {
         </div>
       </SectionWrapper>
 
-      {/* Nos engagements */}
+      {/* Distinctions & Partenariats */}
       <SectionWrapper background="muted">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block px-4 py-1.5 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">
+              Distinctions & partenariats
+            </span>
+            <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-4">
+              Reconnu pour notre innovation
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Notre engagement dans la transition énergétique est reconnu par des prix
+              et des partenariats avec des institutions de premier plan.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="relative p-7 rounded-2xl bg-white border border-border/50 hover:border-primary/20 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-100 to-yellow-50 flex items-center justify-center mb-5">
+                <Trophy className="w-7 h-7 text-amber-600" />
+              </div>
+              <h3 className="text-lg font-bold text-foreground mb-2">
+                {DISTINCTIONS[0].title}
+              </h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                {DISTINCTIONS[0].description}
+              </p>
+            </div>
+
+            <div className="relative p-7 rounded-2xl bg-white border border-border/50 hover:border-primary/20 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-100 to-indigo-50 flex items-center justify-center mb-5">
+                <Handshake className="w-7 h-7 text-blue-600" />
+              </div>
+              <h3 className="text-lg font-bold text-foreground mb-2">
+                {DISTINCTIONS[1].title}
+              </h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                {DISTINCTIONS[1].description}
+              </p>
+            </div>
+          </div>
+        </div>
+      </SectionWrapper>
+
+      {/* Nos engagements */}
+      <SectionWrapper background="white">
         <div className="text-center mb-12">
           <span className="inline-block px-4 py-1.5 bg-secondary/10 text-secondary rounded-full text-sm font-medium mb-4">
             Nos engagements
