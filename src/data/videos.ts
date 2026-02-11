@@ -12,16 +12,16 @@ export const videos: VideoReference[] = [
     id: "corderie-lancelin",
     title: "Corderie Lancelin",
     description:
-      "Témoignage client : la Corderie Lancelin raconte son expérience avec ENR'J et son projet solaire.",
+      "Le dirigeant de la Corderie Lancelin témoigne depuis son entrepôt sur son expérience avec ENR'J.",
     type: "Témoignage client",
     src: "/videos/corderie-lancelin.mp4",
     thumbnail: "/videos/thumbs/corderie-lancelin.jpg",
   },
   {
     id: "lenormand-agri",
-    title: "Lenormand Fabien - Agriculteur",
+    title: "Lenormand Fabien - Éleveur",
     description:
-      "Témoignage de Fabien Lenormand, agriculteur. L'agriculture face aux défis de demain et le rôle du solaire.",
+      "Fabien Lenormand, éleveur de 80 vaches, témoigne sur le solaire au service de l'agriculture.",
     type: "Témoignage agriculteur",
     src: "/videos/lenormand-agri.mp4",
     thumbnail: "/videos/thumbs/lenormand-agri.jpg",
@@ -30,25 +30,25 @@ export const videos: VideoReference[] = [
     id: "naga",
     title: "NAGA - Estelle Matton",
     description:
-      "Estelle Matton, dirigeante de la société NAGA, témoigne de son projet solaire avec ENR'J.",
+      "Visite des locaux de NAGA avec Estelle Matton, dirigeante. Réception des matières premières et projet solaire.",
     type: "Témoignage client",
     src: "/videos/naga.mp4",
     thumbnail: "/videos/thumbs/naga.jpg",
   },
   {
     id: "pose-1blow",
-    title: "1blow - Autoconsommation",
+    title: "1blow",
     description:
-      "Focus sur l'autoconsommation : comment 1blow a réduit sa facture énergétique grâce au solaire.",
-    type: "Autoconsommation",
+      "Le dirigeant de 1blow explique ce qui l'a poussé à poser des panneaux photovoltaïques sur son site industriel.",
+    type: "Témoignage client",
     src: "/videos/pose-1blow.mp4",
     thumbnail: "/videos/thumbs/pose-1blow.jpg",
   },
   {
     id: "pose-aft",
-    title: "AFT - Aspach-Michelbach",
+    title: "AFT Industry",
     description:
-      "Projet solaire ENR'J à Aspach-Michelbach en Alsace. Retour d'expérience du client AFT.",
+      "AFT Industry, spécialiste en tuyauterie, témoigne sur son installation solaire à Aspach-Michelbach.",
     type: "Témoignage client",
     src: "/videos/pose-aft.mp4",
     thumbnail: "/videos/thumbs/pose-aft.jpg",
@@ -57,7 +57,7 @@ export const videos: VideoReference[] = [
     id: "pose-haas-etiquettes",
     title: "Les Étiquettes Haas",
     description:
-      "Témoignage des Étiquettes Haas : installation de panneaux solaires sur leur site de production.",
+      "Le directeur des Étiquettes Haas témoigne devant son usine sur les avantages du solaire avec ENR'J.",
     type: "Témoignage client",
     src: "/videos/pose-haas-etiquettes.mp4",
     thumbnail: "/videos/thumbs/pose-haas-etiquettes.jpg",
@@ -66,7 +66,7 @@ export const videos: VideoReference[] = [
     id: "pose-repoussage-industrie",
     title: "Repoussage et Industrie",
     description:
-      "Ep.1 : Nos clients. Témoignage d'un ingénieur de Repoussage et Industrie sur son projet ENR'J.",
+      "Le dirigeant de Repoussage et Industrie parle de l'avantage de produire sa propre énergie.",
     type: "Témoignage client",
     src: "/videos/pose-repoussage-industrie.mp4",
     thumbnail: "/videos/thumbs/pose-repoussage-industrie.jpg",
