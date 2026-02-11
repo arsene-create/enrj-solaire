@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import { Film } from "lucide-react";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
+import SectionWrapper from "@/components/ui/SectionWrapper";
 import RealisationsGrid from "@/components/sections/RealisationsGrid";
+import VideoReferencesSection from "@/components/sections/VideoReferencesSection";
 import CTABannerSection from "@/components/sections/CTABannerSection";
 
 export const metadata: Metadata = {
@@ -39,6 +42,26 @@ export default function RealisationsPage() {
           <RealisationsGrid />
         </div>
       </section>
+
+      {/* Video References */}
+      <SectionWrapper background="muted">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">
+              <Film className="w-4 h-4" />
+              Nos chantiers en images
+            </div>
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
+              Références en vidéo
+            </h2>
+            <p className="text-muted-foreground max-w-xl mx-auto">
+              Découvrez nos chantiers filmés : de la pose des panneaux au
+              raccordement, suivez chaque étape de nos installations.
+            </p>
+          </div>
+          <VideoReferencesSection />
+        </div>
+      </SectionWrapper>
 
       <CTABannerSection />
     </>
