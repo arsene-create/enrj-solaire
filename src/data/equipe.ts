@@ -97,4 +97,11 @@ export const equipe: TeamMember[] = [
     anecdote:
       "Fan de montagne et d'énergie verte. Il a calculé que les installations ENR'J évitent l'équivalent CO2 de 200 allers-retours Paris-New York par an.",
   },
+  {
+    name: "Tina",
+    role: "Happiness Officer",
+    image: "/images/equipe/tina.jpeg",
+    anecdote:
+      "Mascotte officielle du bureau, elle accueille chaque visiteur avec sa balle de tennis. Son taux d'approbation : 100%. Ses missions : réduire le stress, voler les goûters et réclamer des caresses entre deux réunions.",
+  },
 ];
