@@ -49,14 +49,14 @@ export default function RealisationsPage() {
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">
               <Film className="w-4 h-4" />
-              Nos chantiers en images
+              Ils témoignent
             </div>
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
-              Références en vidéo
+              Nos clients racontent leur projet
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
-              Découvrez nos chantiers filmés : de la pose des panneaux au
-              raccordement, suivez chaque étape de nos installations.
+              Agriculteurs, industriels, dirigeants : ils ont choisi ENR&apos;J
+              pour leur transition solaire et partagent leur expérience.
             </p>
           </div>
           <VideoReferencesSection />
