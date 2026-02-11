@@ -79,7 +79,7 @@ export const equipe: TeamMember[] = [
   {
     name: "Alexandre Plantec",
     role: "Expert énergétique",
-    image: "/images/equipe/alexandre-plantec.jpg",
+    image: "/images/equipe/alexandre-plantec.png",
     anecdote:
       "A travaillé sur des projets solaires dans 4 pays avant de rejoindre ENR'J. Quand il dit qu'une toiture a du potentiel, vous pouvez le croire.",
   },
