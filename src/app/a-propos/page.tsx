@@ -115,9 +115,8 @@ const certifications = [
 
 const keyFigures = [
   { value: "2019", label: "Année de création" },
-  { value: "20 000 €", label: "Capital social" },
-  { value: "6 à 9", label: "Collaborateurs" },
-  { value: "1,6M€", label: "CA réalisé (2021)" },
+  { value: "20+", label: "Collaborateurs" },
+  { value: "5M€", label: "CA réalisé (2025)" },
 ];
 
 export default function AProposPage() {
@@ -189,7 +188,7 @@ export default function AProposPage() {
       {/* Key figures */}
       <section className="py-12 bg-white border-b border-border/50">
         <div className="max-w-5xl mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-3 gap-8">
             {keyFigures.map((fig) => (
               <div key={fig.label} className="text-center">
                 <p className="text-3xl md:text-4xl font-extrabold text-primary mb-1">
@@ -508,12 +507,8 @@ export default function AProposPage() {
                   <span className="font-medium text-foreground">{COMPANY.siren}</span>
                 </div>
                 <div className="flex justify-between py-2 border-b border-border/50">
-                  <span className="text-muted-foreground">Capital social</span>
-                  <span className="font-medium text-foreground">{COMPANY.capitalSocial}</span>
-                </div>
-                <div className="flex justify-between py-2 border-b border-border/50">
                   <span className="text-muted-foreground">Effectif</span>
-                  <span className="font-medium text-foreground">{COMPANY.effectif}</span>
+                  <span className="font-medium text-foreground">20+ collaborateurs</span>
                 </div>
                 <div className="flex justify-between py-2">
                   <span className="text-muted-foreground">Certification</span>
