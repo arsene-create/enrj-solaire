@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { value: 7.5, decimals: 1, suffix: " MWc", label: "Puissance installée par ENR'J" },
+  { value: 7.5, decimals: 1, suffix: " mWc", label: "Puissance installée par ENR'J" },
   { value: 150, decimals: 0, prefix: "+", suffix: "", label: "Projets installés depuis le début" },
   { value: 10, decimals: 0, prefix: "+", suffix: "M€", label: "De centrales solaires financées" },
   { value: 20, decimals: 0, prefix: "+", suffix: "", label: "Collaborateurs dédiés" },

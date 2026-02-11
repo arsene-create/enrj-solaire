@@ -52,7 +52,7 @@ export const CTA_PHONE = {
 } as const;
 
 export const STATS = [
-  { value: 7.5, suffix: " MWc", label: "Puissance installée par ENR'J" },
+  { value: 7.5, suffix: " mWc", label: "Puissance installée par ENR'J" },
   { value: 150, prefix: "+", suffix: "", label: "Projets installés depuis le début" },
   { value: 10, prefix: "+", suffix: "M€", label: "De centrales solaires financées" },
   { value: 20, prefix: "+", suffix: "", label: "Collaborateurs dédiés" },
@@ -73,7 +73,7 @@ export const DISTINCTIONS = [
 
 export const MARKET_DATA = {
   // Capacité installée France (source : RTE/Enedis 2024)
-  capaciteInstallee: "7,5 MWc",
+  capaciteInstallee: "7,5 mWc",
   croissanceMarche: "+150 projets installés",
   haussePrixElec: "+60% depuis 2021",
   productionARA: "1 112 kWh/kWc/an",

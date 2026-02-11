@@ -885,7 +885,7 @@ L'onduleur remplit plusieurs fonctions essentielles. Sa fonction première est l
 
 ### Onduleur central (ou string)
 
-L'onduleur central reçoit le courant de plusieurs chaînes (strings) de panneaux connectés en série. C'est la technologie la plus utilisée pour les installations professionnelles de moyenne et grande puissance (10 kWc à plusieurs MWc).
+L'onduleur central reçoit le courant de plusieurs chaînes (strings) de panneaux connectés en série. C'est la technologie la plus utilisée pour les installations professionnelles de moyenne et grande puissance (10 kWc à plusieurs mWc).
 
 Ses avantages sont un coût par kWc le plus faible, un rendement élevé dépassant 97 à 98 %, et une maintenance centralisée plus simple. Ses inconvénients principaux sont la sensibilité à l'ombrage partiel (toute la chaîne est affectée si un panneau est ombragé) et une durée de vie de 10 à 15 ans nécessitant un remplacement au cours de la vie de l'installation. La garantie constructeur est de 5 à 10 ans, extensible à 20 ans.
 
