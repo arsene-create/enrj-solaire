@@ -23,35 +23,35 @@ export const equipe: TeamMember[] = [
   {
     name: "Enzo Tessier",
     role: "Chargé de projet énergétique",
-    image: "/images/equipe/enzo-tessier.png",
+    image: "/images/equipe/enzo-tessier.jpg",
     anecdote:
       "Ancien sportif de haut niveau, il met la même énergie dans le suivi de vos projets que sur un terrain. Ne lâche jamais un dossier.",
   },
   {
     name: "Florian Boucher",
     role: "Chargé de projet énergétique",
-    image: "/images/equipe/florian-boucher.png",
+    image: "/images/equipe/florian-boucher.jpg",
     anecdote:
       "Le roi des dossiers Enedis. Il connaît les formulaires par coeur et fait gagner en moyenne 3 semaines sur les délais de raccordement.",
   },
   {
     name: "Garance Cresp",
     role: "Chargée de projet énergétique",
-    image: "/images/equipe/garance-cresp.png",
+    image: "/images/equipe/garance-cresp.jpg",
     anecdote:
       "A convaincu un agriculteur sceptique en lui montrant la production en direct sur son téléphone. Il a signé le lendemain.",
   },
   {
     name: "Julen Ortiz",
     role: "Chargé de projet énergétique",
-    image: "/images/equipe/julen-ortiz.png",
+    image: "/images/equipe/julen-ortiz.jpg",
     anecdote:
       "Originaire du Pays Basque, il parcourt la France pour dénicher les meilleures toitures. Son GPS affiche plus de 80 000 km par an.",
   },
   {
     name: "Leo Gwiner",
     role: "Chargé de projet énergétique",
-    image: "/images/equipe/leo-gwiner.png",
+    image: "/images/equipe/leo-gwiner.jpg",
     anecdote:
       "Passionné de data, il a créé un tableau de bord interne qui prédit la production solaire de chaque projet à 2% près.",
   },
@@ -65,7 +65,7 @@ export const equipe: TeamMember[] = [
   {
     name: "Lior Marouani",
     role: "Chargé de projet énergétique",
-    image: "/images/equipe/lior-marouani.png",
+    image: "/images/equipe/lior-marouani.jpg",
     anecdote:
       "A réussi à faire installer des panneaux sur un hangar que tout le monde pensait trop vétuste. Résultat : charpente renforcée et 150 kWc installés.",
   },
@@ -79,14 +79,14 @@ export const equipe: TeamMember[] = [
   {
     name: "Alexandre Plantec",
     role: "Expert énergétique",
-    image: "/images/equipe/alexandre-plantec.png",
+    image: "/images/equipe/alexandre-plantec.jpg",
     anecdote:
       "A travaillé sur des projets solaires dans 4 pays avant de rejoindre ENR'J. Quand il dit qu'une toiture a du potentiel, vous pouvez le croire.",
   },
   {
     name: "Greg Hakoun",
     role: "Expert énergétique",
-    image: "/images/equipe/greg-hakoun.png",
+    image: "/images/equipe/greg-hakoun.jpg",
     anecdote:
       "Spécialiste des ombrières de parking, il a sauvé plusieurs clients d'amendes Loi APER à quelques mois de l'échéance. Le pompier du solaire.",
   },

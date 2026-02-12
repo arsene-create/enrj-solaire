@@ -161,11 +161,9 @@ h6 {
 @keyframes pulse-glow {
   0%, 100% {
     opacity: 0.4;
-    transform: scale(1);
   }
   50% {
-    opacity: 0.8;
-    transform: scale(1.05);
+    opacity: 0.7;
   }
 }
 
@@ -175,24 +173,6 @@ h6 {
   }
   50% {
     transform: translateY(-8px);
-  }
-}
-
-@keyframes shimmer {
-  0% {
-    background-position: -200% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
-}
-
-@keyframes grid-fade {
-  0%, 100% {
-    opacity: 0.03;
-  }
-  50% {
-    opacity: 0.06;
   }
 }
 
@@ -218,25 +198,33 @@ h6 {
 }
 
 .animate-pulse-glow {
-  animation: pulse-glow 4s ease-in-out infinite;
+  animation: pulse-glow 6s ease-in-out infinite;
+  will-change: opacity;
 }
 
 .animate-float {
   animation: float 6s ease-in-out infinite;
-}
-
-.animate-shimmer {
-  background-size: 200% 100%;
-  animation: shimmer 3s ease-in-out infinite;
+  will-change: transform;
 }
 
 /* Grid background pattern */
 .bg-grid {
   background-image:
-    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
   background-size: 60px 60px;
-  animation: grid-fade 8s ease-in-out infinite;
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .animate-pulse-glow,
+  .animate-float,
+  .animate-fade-in-up,
+  .animate-slide-in-left {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }
 
 /* Gradient border effect */

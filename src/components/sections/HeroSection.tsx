@@ -18,14 +18,8 @@ export default function HeroSection() {
 
       {/* Gradient orbs */}
       <div className="absolute -top-40 -right-40 w-[700px] h-[700px] bg-primary/20 rounded-full blur-[150px] animate-pulse-glow" />
-      <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] bg-secondary/15 rounded-full blur-[120px] animate-pulse-glow" style={{ animationDelay: "2s" }} />
+      <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] bg-secondary/15 rounded-full blur-[120px] animate-pulse-glow" style={{ animationDelay: "3s" }} />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-primary/5 rounded-full blur-[100px]" />
-
-      {/* Floating decorative elements */}
-      <div className="absolute top-20 right-[15%] w-2 h-2 bg-primary/40 rounded-full animate-float" />
-      <div className="absolute top-40 left-[10%] w-1.5 h-1.5 bg-secondary/40 rounded-full animate-float" style={{ animationDelay: "1s" }} />
-      <div className="absolute bottom-32 right-[25%] w-1 h-1 bg-primary/30 rounded-full animate-float" style={{ animationDelay: "3s" }} />
-      <div className="absolute top-1/3 right-[8%] w-3 h-3 bg-secondary/20 rounded-full animate-float" style={{ animationDelay: "2s" }} />
 
       {/* Hero image overlay (subtle) */}
       <div className="absolute inset-0 z-0">
