@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://www.enrj-solaire.fr",
+  siteUrl: "https://www.enr-j.com",
   generateRobotsTxt: true,
   sitemapSize: 5000,
   changefreq: "weekly",
@@ -27,6 +27,8 @@ module.exports = {
       "/realisations",
       "/blog",
       "/a-propos",
+      "/equipe",
+      "/faq",
     ];
 
     let priority = config.priority;

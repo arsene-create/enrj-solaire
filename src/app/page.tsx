@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   description:
     "Tiers-investissement solaire pour professionnels. Installation photovoltaïque financée à 100%, maintenance incluse. Loi APER, Décret Tertiaire.",
   alternates: {
-    canonical: "https://www.enrj-solaire.fr",
+    canonical: "https://www.enr-j.com",
   },
   openGraph: {
     title: "ENR-J Solaire | Votre toiture produit de l'énergie. Sans investir un euro.",
     description:
       "Nous finançons et installons vos panneaux solaires. 0€ d'investissement, maintenance incluse 30 ans.",
-    url: "https://www.enrj-solaire.fr",
+    url: "https://www.enr-j.com",
   },
 };
 

@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `Installateur Panneau Solaire ${city.name} | 0€ d'investissement`,
     description: `Panneaux solaires à ${city.name} (${city.department}). Tiers-investissement : 0€ d'investissement. Hangars, toitures, ombrières. Étude gratuite.`,
     alternates: {
-      canonical: `https://www.enrj-solaire.fr/installateur-panneau-solaire/${ville}`,
+      canonical: `https://www.enr-j.com/installateur-panneau-solaire/${ville}`,
     },
     openGraph: {
       title: `Panneau Solaire ${city.name} | ENR-J Solaire`,

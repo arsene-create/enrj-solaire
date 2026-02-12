@@ -4,7 +4,7 @@ Allow: /
 Disallow: /api/
 
 # Host
-Host: https://www.enrj-solaire.fr
+Host: https://www.enr-j.com
 
 # Sitemaps
-Sitemap: https://www.enrj-solaire.fr/sitemap.xml
+Sitemap: https://www.enr-j.com/sitemap.xml
