@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     template: "%s | ENR-J Solaire",
   },
   description:
-    "Panneaux solaires pour professionnels en tiers-investissement. Installation financée à 100%, maintenance incluse. Loi APER, Décret Tertiaire.",
+    "Centrale solaire professionnelle en tiers-investissement. Panneau solaire entreprise financé à 100%, maintenance incluse 30 ans. Loi APER, Décret Tertiaire. Devis gratuit.",
   keywords:
-    "panneau solaire professionnel, photovoltaïque entreprise, hangar agricole solaire, ombrière parking, tiers investissement solaire, Loi APER, Décret Tertiaire",
+    "centrale solaire professionnelle, panneau solaire professionnel, panneau solaire entreprise, installation panneau solaire, photovoltaïque entreprise, hangar agricole solaire, ombrière parking solaire, tiers investissement solaire, financement panneau solaire, panneau solaire 0 euro, Loi APER, Décret Tertiaire, devis panneau solaire, loyer toiture solaire, rentabilité panneau solaire",
   openGraph: {
     title: "ENR-J Solaire | Votre toiture produit de l'énergie. Sans investir un euro.",
     description:

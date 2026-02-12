@@ -70,26 +70,46 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 3: Navigation */}
+          {/* Col 3: Ressources */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Navigation</h3>
+            <h3 className="font-semibold text-lg mb-4">Ressources</h3>
             <ul className="space-y-2.5">
-              {NAV_LINKS.filter((l) => !("children" in l)).map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-white/70 hover:text-primary transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link href="/blog" className="text-sm text-white/70 hover:text-primary transition-colors">
+                  Blog solaire professionnel
+                </Link>
+              </li>
+              <li>
+                <Link href="/faq" className="text-sm text-white/70 hover:text-primary transition-colors">
+                  FAQ panneau solaire entreprise
+                </Link>
+              </li>
+              <li>
+                <Link href="/realisations" className="text-sm text-white/70 hover:text-primary transition-colors">
+                  Nos réalisations solaires
+                </Link>
+              </li>
+              <li>
+                <Link href="/a-propos" className="text-sm text-white/70 hover:text-primary transition-colors">
+                  À propos d&apos;ENR&apos;J
+                </Link>
+              </li>
+              <li>
+                <Link href="/equipe" className="text-sm text-white/70 hover:text-primary transition-colors">
+                  Notre équipe
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-sm text-white/70 hover:text-primary transition-colors">
+                  Contact &amp; devis gratuit
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/simulateur"
                   className="text-sm text-primary hover:text-primary-hover transition-colors font-medium"
                 >
-                  Simulateur gratuit
+                  Simulateur d&apos;éligibilité solaire
                 </Link>
               </li>
             </ul>

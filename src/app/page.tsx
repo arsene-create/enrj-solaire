@@ -12,16 +12,16 @@ import { getFAQSchema, getLocalBusinessSchema } from "@/components/seo/schemas";
 import { faqItems } from "@/data/faq";
 
 export const metadata: Metadata = {
-  title: "ENR-J Solaire | Panneaux Solaires Professionnels : 0€ d'Investissement",
+  title: "ENR-J Solaire | Centrale Solaire Professionnelle : 0€ d'Investissement",
   description:
-    "Tiers-investissement solaire pour professionnels. Installation photovoltaïque financée à 100%, maintenance incluse. Loi APER, Décret Tertiaire.",
+    "Centrale solaire professionnelle en tiers-investissement. Installation panneau solaire entreprise financée à 100%, maintenance incluse 30 ans. Loi APER, Décret Tertiaire. Devis gratuit.",
   alternates: {
     canonical: "https://www.enr-j.com",
   },
   openGraph: {
-    title: "ENR-J Solaire | Votre toiture produit de l'énergie. Sans investir un euro.",
+    title: "Centrale solaire professionnelle | Panneau solaire entreprise 0€",
     description:
-      "Nous finançons et installons vos panneaux solaires. 0€ d'investissement, maintenance incluse 30 ans.",
+      "Installation de centrale solaire professionnelle sans investissement. Panneau solaire entreprise, hangar agricole, toiture industrielle, ombrière parking.",
     url: "https://www.enr-j.com",
   },
 };

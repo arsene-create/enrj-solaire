@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!city) return {};
 
   return {
-    title: `Installateur Panneau Solaire ${city.name} | 0€ d'investissement`,
-    description: `Panneaux solaires à ${city.name} (${city.department}). Tiers-investissement : 0€ d'investissement. Hangars, toitures, ombrières. Étude gratuite.`,
+    title: `Panneau Solaire ${city.name} (${city.department}) | Devis Gratuit 0€`,
+    description: `Installateur panneau solaire à ${city.name} (${city.department}). Centrale solaire professionnelle en tiers-investissement : 0€ d'investissement. Hangars agricoles, toitures industrielles, ombrières parking. Devis gratuit.`,
     alternates: {
       canonical: `https://www.enr-j.com/installateur-panneau-solaire/${ville}`,
     },
