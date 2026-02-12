@@ -49,18 +49,18 @@ export const equipe: TeamMember[] = [
       "Originaire du Pays Basque, il parcourt la France pour dénicher les meilleures toitures. Son GPS affiche plus de 80 000 km par an.",
   },
   {
-    name: "Leo Gwiner",
+    name: "Leo Gwinner",
     role: "Chargé de projet énergétique",
-    image: "/images/equipe/leo-gwiner.jpg",
+    image: "/images/equipe/leo-gwinner.jpg",
     anecdote:
       "Passionné de data, il a créé un tableau de bord interne qui prédit la production solaire de chaque projet à 2% près.",
   },
   {
-    name: "Lian Pays",
-    role: "Chargé de projet énergétique",
-    image: "/images/equipe/lian-pays.jpg",
+    name: "Lina Pi",
+    role: "Chargée de projet énergétique",
+    image: "/images/equipe/lina-pi.jpg",
     anecdote:
-      "Le plus jeune de l'équipe mais déjà plus de 30 projets au compteur. Ses clients l'appellent « le gars qui répond toujours au téléphone ».",
+      "La plus jeune de l'équipe mais déjà plus de 30 projets au compteur. Ses clients l'appellent « la fille qui répond toujours au téléphone ».",
   },
   {
     name: "Lior Marouani",
@@ -70,11 +70,11 @@ export const equipe: TeamMember[] = [
       "A réussi à faire installer des panneaux sur un hangar que tout le monde pensait trop vétuste. Résultat : charpente renforcée et 150 kWc installés.",
   },
   {
-    name: "Raphaelle Deschamps",
-    role: "Experte énergétique",
+    name: "Raphaël Deschamps",
+    role: "Expert énergétique",
     image: "/images/equipe/raphaelle-deschamps.jpeg",
     anecdote:
-      "Ingénieure de formation, elle peut vous expliquer le fonctionnement d'un onduleur en 30 secondes chrono. Testée et approuvée par nos clients.",
+      "Ingénieur de formation, il peut vous expliquer le fonctionnement d'un onduleur en 30 secondes chrono. Testé et approuvé par nos clients.",
   },
   {
     name: "Alexandre Plantec",
@@ -96,6 +96,13 @@ export const equipe: TeamMember[] = [
     image: "/images/equipe/paul-dutertre.jpeg",
     anecdote:
       "Fan de montagne et d'énergie verte. Il a calculé que les installations ENR'J évitent l'équivalent CO2 de 200 allers-retours Paris-New York par an.",
+  },
+  {
+    name: "Jeanne Morcely",
+    role: "Chargée de projet énergétique",
+    image: "/images/equipe/jeanne-morcely.jpg",
+    anecdote:
+      "Organisée comme personne, elle gère ses dossiers avec une précision chirurgicale. Ses clients apprécient son suivi irréprochable du premier appel à la mise en service.",
   },
   {
     name: "Tina",
