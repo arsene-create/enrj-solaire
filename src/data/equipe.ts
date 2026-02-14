@@ -30,7 +30,7 @@ export const equipe: TeamMember[] = [
   {
     name: "Florian Boucher",
     role: "Chargé de projet énergétique",
-    image: "/images/equipe/florian-boucher.jpg",
+    image: "/images/equipe/lina-pi.jpg",
     anecdote:
       "Le roi des dossiers Enedis. Il connaît les formulaires par coeur et fait gagner en moyenne 3 semaines sur les délais de raccordement.",
   },
@@ -58,7 +58,7 @@ export const equipe: TeamMember[] = [
   {
     name: "Lina Pi",
     role: "Chargée de projet énergétique",
-    image: "/images/equipe/lina-pi.jpg",
+    image: "/images/equipe/florian-boucher.jpg",
     anecdote:
       "La plus jeune de l'équipe mais déjà plus de 30 projets au compteur. Ses clients l'appellent « la fille qui répond toujours au téléphone ».",
   },

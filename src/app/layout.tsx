@@ -40,18 +40,28 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     siteName: "ENR-J Solaire",
     url: "https://www.enr-j.com",
+    images: [
+      {
+        url: "/images/logo-enrj.png",
+        width: 800,
+        height: 400,
+        alt: "ENR'J Solaire - Panneaux solaires professionnels",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "ENR-J Solaire | Panneaux Solaires Professionnels",
     description:
       "Tiers-investissement solaire pour professionnels. 0€ d'investissement, maintenance incluse.",
+    images: ["/images/logo-enrj.png"],
   },
   other: {
     "theme-color": "#93C191",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.png",
+    apple: "/favicon.png",
   },
   alternates: {
     canonical: "https://www.enr-j.com",
