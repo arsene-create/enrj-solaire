@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowRight, Phone, MapPin, CheckCircle, Sun } from "lucide-react";
+import { ArrowRight, Phone, MapPin, CheckCircle, Sun, Zap, Building2, Leaf, BarChart3 } from "lucide-react";
 import { cities } from "@/data/cities";
+import { citySolarData } from "@/data/city-solar-data";
 import { COMPANY } from "@/lib/constants";
 import JsonLd from "@/components/seo/JsonLd";
 import { getLocalBusinessSchema } from "@/components/seo/schemas";
@@ -44,24 +45,7 @@ export default async function CityPage({ params }: PageProps) {
     notFound();
   }
 
-  // Production estimée par zone climatique (kWh/kWc/an)
-  const productionByRegion: Record<string, { kwhPerKwc: number; zone: string }> = {
-    "Provence-Alpes-Côte d'Azur": { kwhPerKwc: 1350, zone: "H3 : fort ensoleillement" },
-    "Occitanie": { kwhPerKwc: 1300, zone: "H3 : fort ensoleillement" },
-    "Corse": { kwhPerKwc: 1400, zone: "H3 : fort ensoleillement" },
-    "Nouvelle-Aquitaine": { kwhPerKwc: 1200, zone: "H2 : ensoleillement modéré à fort" },
-    "Auvergne-Rhône-Alpes": { kwhPerKwc: 1112, zone: "H1/H2 : ensoleillement variable" },
-    "Pays de la Loire": { kwhPerKwc: 1150, zone: "H2 : ensoleillement modéré" },
-    "Centre-Val de Loire": { kwhPerKwc: 1100, zone: "H2 : ensoleillement modéré" },
-    "Bourgogne-Franche-Comté": { kwhPerKwc: 1050, zone: "H1 : ensoleillement modéré" },
-    "Bretagne": { kwhPerKwc: 1050, zone: "H2 : ensoleillement modéré" },
-    "Normandie": { kwhPerKwc: 1000, zone: "H1 : ensoleillement modéré" },
-    "Île-de-France": { kwhPerKwc: 1050, zone: "H1 : ensoleillement modéré" },
-    "Hauts-de-France": { kwhPerKwc: 950, zone: "H1 : ensoleillement modéré" },
-    "Grand Est": { kwhPerKwc: 1000, zone: "H1 : ensoleillement modéré" },
-  };
-
-  const regionData = productionByRegion[city.region] ?? { kwhPerKwc: 1100, zone: "Ensoleillement moyen" };
+  const solar = citySolarData[city.slug];
 
   const services = [
     {
@@ -160,41 +144,77 @@ export default async function CityPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Production Estimate */}
-      <section className="py-16 px-4 bg-gradient-to-br from-primary/5 to-secondary/5">
-        <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-center gap-2 mb-6">
-            <Sun className="w-6 h-6 text-primary" />
-            <h2 className="text-2xl md:text-3xl font-bold text-foreground text-center">
-              Production solaire estimée à {city.name}
-            </h2>
+      {/* Données solaires locales */}
+      {solar && (
+        <section className="py-16 px-4 bg-gradient-to-br from-primary/5 to-secondary/5">
+          <div className="max-w-5xl mx-auto">
+            <div className="flex items-center justify-center gap-2 mb-2">
+              <Sun className="w-6 h-6 text-primary" />
+              <h2 className="text-2xl md:text-3xl font-bold text-foreground text-center">
+                Potentiel solaire à {city.name}
+              </h2>
+            </div>
+            <p className="text-center text-muted-foreground mb-10">
+              Données calculées pour {city.name} ({city.department}) — coordonnées {solar.lat}°N, {solar.lon}°E
+            </p>
+
+            {/* Row 1 — 4 cards */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+              <div className="bg-white rounded-2xl p-5 text-center shadow-sm">
+                <Sun className="w-5 h-5 text-amber-500 mx-auto mb-2" />
+                <p className="text-2xl md:text-3xl font-extrabold text-foreground mb-1">{solar.ensoleillement.toLocaleString("fr-FR")}</p>
+                <p className="text-sm font-medium text-muted-foreground">heures/an</p>
+                <p className="text-xs text-muted-foreground mt-1">Ensoleillement à {city.name}</p>
+              </div>
+              <div className="bg-white rounded-2xl p-5 text-center shadow-sm">
+                <Zap className="w-5 h-5 text-yellow-500 mx-auto mb-2" />
+                <p className="text-2xl md:text-3xl font-extrabold text-foreground mb-1">{solar.irradiance.toLocaleString("fr-FR")}</p>
+                <p className="text-sm font-medium text-muted-foreground">kWh/m²/an</p>
+                <p className="text-xs text-muted-foreground mt-1">Irradiance GHI</p>
+              </div>
+              <div className="bg-white rounded-2xl p-5 text-center shadow-sm">
+                <BarChart3 className="w-5 h-5 text-secondary mx-auto mb-2" />
+                <p className="text-2xl md:text-3xl font-extrabold text-foreground mb-1">{solar.production100kwc}</p>
+                <p className="text-sm font-medium text-muted-foreground">MWh/an</p>
+                <p className="text-xs text-muted-foreground mt-1">Production 100 kWc</p>
+              </div>
+              <div className="bg-gradient-to-br from-primary to-primary-hover rounded-2xl p-5 text-center shadow-md">
+                <span className="text-2xl mb-1 block">💰</span>
+                <p className="text-2xl md:text-3xl font-extrabold text-white mb-1">{solar.economie.toLocaleString("fr-FR")} €</p>
+                <p className="text-sm font-medium text-white/80">par an</p>
+                <p className="text-xs text-white/70 mt-1">Économie estimée</p>
+              </div>
+            </div>
+
+            {/* Row 2 — 3 cards */}
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <div className="bg-white rounded-2xl p-5 text-center shadow-sm">
+                <Leaf className="w-5 h-5 text-green-600 mx-auto mb-2" />
+                <p className="text-2xl md:text-3xl font-extrabold text-foreground mb-1">{solar.co2Evite}</p>
+                <p className="text-sm font-medium text-muted-foreground">tonnes/an</p>
+                <p className="text-xs text-muted-foreground mt-1">CO₂ évité</p>
+              </div>
+              <div className="bg-white rounded-2xl p-5 text-center shadow-sm">
+                <Building2 className="w-5 h-5 text-blue-500 mx-auto mb-2" />
+                <p className="text-2xl md:text-3xl font-extrabold text-foreground mb-1">{solar.entreprises.toLocaleString("fr-FR")}</p>
+                <p className="text-sm font-medium text-muted-foreground">entreprises</p>
+                <p className="text-xs text-muted-foreground mt-1">à {city.name}</p>
+              </div>
+              <div className="bg-white rounded-2xl p-5 text-center shadow-sm col-span-2 md:col-span-1">
+                <span className="text-lg block mb-1">🏭</span>
+                <p className="text-2xl md:text-3xl font-extrabold text-foreground mb-1">{solar.toitures.toLocaleString("fr-FR")}</p>
+                <p className="text-sm font-medium text-muted-foreground">toitures</p>
+                <p className="text-xs text-muted-foreground mt-1">Exploitables estimées</p>
+              </div>
+            </div>
+
+            <p className="text-xs text-muted-foreground text-center mt-6">
+              Estimations basées sur les coordonnées GPS de {city.name} et les formules PVGIS.
+              Production réelle variable selon orientation, inclinaison et ombrage.
+            </p>
           </div>
-          <p className="text-center text-muted-foreground mb-8">
-            {city.region}, {regionData.zone}
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-white rounded-2xl p-6 text-center shadow-sm">
-              <p className="text-3xl font-extrabold text-primary mb-1">{regionData.kwhPerKwc}</p>
-              <p className="text-sm text-muted-foreground">kWh/kWc/an</p>
-              <p className="text-xs text-muted-foreground mt-1">Production estimée</p>
-            </div>
-            <div className="bg-white rounded-2xl p-6 text-center shadow-sm">
-              <p className="text-3xl font-extrabold text-primary mb-1">{Math.round(regionData.kwhPerKwc * 100 / 1000)}</p>
-              <p className="text-sm text-muted-foreground">MWh/an</p>
-              <p className="text-xs text-muted-foreground mt-1">Pour 100 kWc installés</p>
-            </div>
-            <div className="bg-white rounded-2xl p-6 text-center shadow-sm">
-              <p className="text-3xl font-extrabold text-primary mb-1">{Math.round(regionData.kwhPerKwc * 100 * 0.1168)}</p>
-              <p className="text-sm text-muted-foreground">€/an estimé</p>
-              <p className="text-xs text-muted-foreground mt-1">Revente EDF OA (100 kWc)</p>
-            </div>
-          </div>
-          <p className="text-xs text-muted-foreground text-center mt-4">
-            Estimations basées sur les données d&apos;ensoleillement régional. Production réelle variable selon orientation, inclinaison et ombrage.
-            Tarif EDF OA : 0,1168 €/kWh (100-500 kWc, T1 2026).
-          </p>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Advantages */}
       <section className="py-16 px-4 bg-muted">
